@@ -1,0 +1,142 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+.nav ul li{
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav a:hover{
+    color: #ff6700;
+}
+.container{
+    width: 100%;
+    height: 1600px;
+    background-color: rgb(182, 175, 175);
+}
+.container .logo img{
+    width: 60px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.container .cell1{
+    width: 400px;
+    height: 700px;
+    margin-left: 200px;
+    margin-top: -60px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+    transition: all .2s linear;
+}
+.cell1:hover,.cell2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+.cell1 .head,.cell2 .head{
+    color: #333;
+    font-size: 22px;
+    margin-left: 8px;
+    line-height: 60px;
+    list-style: none;
+}
+.cell1 .school,.cell2 .school{
+    color: #333;
+    font-size: 20px;
+    list-style: none;
+    line-height: 40px;
+}
+.cell1 .picture,.cell2 .picture{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.cell1 .footer,.cell2 .footer{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.cell1 .footer a,.cell2 .footer a{
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.cell1 .footer a:hover,.cell2 .footer a:hover{
+    color: #ff6700;
+}
+.cell1 .bottom,.cell2 .bottom {
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.cell1 .floor,.cell2 .floor{
+    list-style: none;
+    margin-top: 15px;
+}
+.cell1 .floor li,.cell2 .floor li{
+    float: left;
+    margin-left: 38px;
+    font-size: 20px;
+}
+.cell1 .floor a,.cell2 .floor a{
+    color: black;
+    text-decoration: none;
+}
+.cell1 .floor a:hover,.cell2 .floor a:hover{
+    color: #ff6700;
+}
+.cell1 i,.cell2 i{
+    font-size: 22px;
+}
+.adv ul li img{
+    width: 600px;
+    height: 300px;
+}
+.adv ul{
+    margin-top: 0;
+}
+.adv ul li{
+    list-style: none;
+    float: right;
+}
+.adv .one{
+    margin-top: -720px;
+    margin-right: 50px;
+}
+.adv .two{
+    margin-top: -410px;
+    margin-right: 50px;
+}
+.adv .three{
+    font-size: 27px;
+    margin-top: -60px;
+}
+.adv2 ul li img{
+    width: 600px;
+    height: 300px;
+}
+.adv2 ul{
+    margin-top: 120px;
+}
+.adv2 ul li{
+    list-style: none;
+}
+.container .cell2{
+    width: 400px;
+    height: 700px;
+    margin-left: 850px;
+    margin-top: -680px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+    transition: all .2s linear;
+}
